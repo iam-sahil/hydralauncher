@@ -38,6 +38,9 @@
     --size-container-max: 1920px;
     --size-container: clamp(var(--size-container-min), 100vw, var(--size-container-max));
     --size-font: calc(var(--size-container) / (var(--size-container-ideal) / var(--size-unit)));
+    
+    scrollbar-width: thin;
+    scrollbar-color: var(--text-color) var(--back-color);
 }
 ::-moz-selection {
     color: var(--back-color);
